@@ -26,6 +26,7 @@ python src/inference/graph_inference.py \
     --image_path examples/sample_data/images/graph_example.jpg \
     --node_model models/pretrained/node_detection.pt \
     --edge_model models/pretrained/edge_classifier.pt
+    
 📁 Project Structure
 exam-answer-checker/
 ├── src/                    # Main source code
