@@ -1,0 +1,13 @@
+# GraphCNN Training Configuration
+model:
+  num_nodes: 17
+  pretrained: true
+
+training:
+  batch_size: 128
+  epochs: 60
+  learning_rate: 1e-4
+  val_split: 0.2
+
+data:
+  image_size: 256
