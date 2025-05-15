@@ -27,7 +27,7 @@ python src/inference/graph_inference.py \
     --node_model models/pretrained/node_detection.pt \
     --edge_model models/pretrained/edge_classifier.pt
     
-📁 Project Structure
+## 📁 Project Structure
 exam-answer-checker/
 ├── src/                    # Main source code
 │   ├── models/            # Model architectures (GraphCNN, Edge Classifier)
