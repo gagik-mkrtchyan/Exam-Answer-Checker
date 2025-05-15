@@ -29,18 +29,18 @@ python src/inference/graph_inference.py \
     
 ## 📁 Project Structure
 exam-answer-checker/
-├── src/                    # Main source code
-│   ├── models/            # Model architectures (GraphCNN, Edge Classifier)
-│   ├── training/          # Training scripts for all models
-│   ├── evaluation/        # Model evaluation scripts
-│   ├── inference/         # Inference pipelines and utilities
-│   └── utils/             # Helper functions and utilities
-├── docs/                  # Documentation and guides
-├── examples/              # Usage examples and sample data
-├── notebooks/             # Jupyter notebooks for tutorials
-├── tests/                 # Unit tests
-├── configs/               # Configuration files
-└── requirements.txt       # Python dependencies
+  src/                     # Main source code
+    models/                # Model architectures (GraphCNN, Edge Classifier)
+    training/              # Training scripts for all models
+    evaluation/            # Model evaluation scripts
+    inference/             # Inference pipelines and utilities
+    utils/                 # Helper functions and utilities
+  docs/                    # Documentation and guides
+  examples/                # Usage examples and sample data
+  notebooks/               # Jupyter notebooks for tutorials
+  tests/                   # Unit tests
+  configs/                 # Configuration files
+  requirements.txt         # Python dependencies
 
 🔧 Installation
 
