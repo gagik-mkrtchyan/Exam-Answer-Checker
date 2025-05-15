@@ -41,6 +41,7 @@ exam-answer-checker/
 ├── tests/                 # Unit tests
 ├── configs/               # Configuration files
 └── requirements.txt       # Python dependencies
+
 🔧 Installation
 
 Clone the repository:
