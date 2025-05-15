@@ -115,12 +115,15 @@ bashpython src/training/train_graph_cnn.py \
 
 | Approach         | Model           | Accuracy | Precision | Recall | F1 Score |
 |------------------|------------------|----------|-----------|--------|----------|
-| Առաջին մոտեցում | ResNet18         | 95.28%   | 66.83%    | 66.07% | 66.45%   |
-| Երկրորդ մոտեցում | ConvNeXt-Tiny    | 98.33%   | 98.65%    | 97.34% | 97.99%   |
+| First Approach | ResNet18         | 95.28%   | 66.83%    | 66.07% | 66.45%   |
+| Second Approach | ConvNeXt-Tiny    | 98.33%   | 98.65%    | 97.34% | 97.99%   |
 
 Node Detection Accuracy: 94.2%
+
 Edge Classification Precision: 91.8%
+
 Graph Reconstruction F1-Score: 89.5%
+
 Processing Time: ~2.3 seconds per exam page
 
 🔧 Configuration
