@@ -28,7 +28,19 @@ python src/inference/graph_inference.py \
     --edge_model models/pretrained/edge_classifier.pt
     
 ## 📁 Project Structure
-<pre> ```text exam-answer-checker/ ├── src/ # Main source code │ ├── models/ # Model architectures (GraphCNN, Edge Classifier) │ ├── training/ # Training scripts for all models │ ├── evaluation/ # Model evaluation scripts │ ├── inference/ # Inference pipelines and utilities │ └── utils/ # Helper functions and utilities ├── docs/ # Documentation and guides ├── examples/ # Usage examples and sample data ├── notebooks/ # Jupyter notebooks for tutorials ├── tests/ # Unit tests ├── configs/ # Configuration files └── requirements.txt # Python dependencies ``` </pre>
+exam-answer-checker/
+├── src/                    # Main source code
+│   ├── models/            # Model architectures (GraphCNN, Edge Classifier)
+│   ├── training/          # Training scripts for all models
+│   ├── evaluation/        # Model evaluation scripts
+│   ├── inference/         # Inference pipelines and utilities
+│   └── utils/             # Helper functions and utilities
+├── docs/                  # Documentation and guides
+├── examples/              # Usage examples and sample data
+├── notebooks/             # Jupyter notebooks for tutorials
+├── tests/                 # Unit tests
+├── configs/               # Configuration files
+└── requirements.txt       # Python dependencies
 
 🔧 Installation
 
