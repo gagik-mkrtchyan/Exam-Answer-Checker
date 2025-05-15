@@ -79,6 +79,7 @@ Graph Reconstruction: Build adjacency matrix from detected nodes and edges
 Output Generation: Export results in various formats (JSON, CSV, visualization)
 
 🚀 Usage Examples
+
 Single Image Inference
 bashpython src/inference/graph_inference.py \
     --image_path path/to/exam/image.jpg \
@@ -95,6 +96,7 @@ bashpython src/training/train_graph_cnn.py \
     --config configs/graph_cnn_config.yaml \
     --data_dir data/training_set/ \
     --output_dir models/custom/
+    
 📊 Performance Metrics
 
 | Approach         | Model           | Accuracy | Precision | Recall | F1 Score |
@@ -108,6 +110,7 @@ Graph Reconstruction F1-Score: 89.5%
 Processing Time: ~2.3 seconds per exam page
 
 🔧 Configuration
+
 The system uses YAML configuration files located in the configs/ directory. Key parameters include:
 
 Model Parameters: Learning rates, batch sizes, epochs
@@ -115,8 +118,10 @@ Data Parameters: Image augmentation settings, dataset paths
 Inference Parameters: Confidence thresholds, NMS settings
 
 🧪 Testing
+
 Run the test suite to verify installation:
 bashpython -m pytest tests/ -v
+
 📖 Documentation
 
 Getting Started Guide
@@ -125,6 +130,7 @@ API Reference
 Troubleshooting
 
 🤝 Contributing
+
 We welcome contributions! Please follow these steps:
 
 Fork the repository
@@ -134,6 +140,7 @@ Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
 Please ensure your code follows our coding standards and includes appropriate tests.
+
 📝 Requirements
 
 Python 3.8 or higher
@@ -148,8 +155,11 @@ Some edge detection models may struggle with very faint or sketchy lines
 Processing time increases significantly with the number of nodes in complex graphs
 
 📞 Support
+
 For questions, bug reports, or feature requests, please open an issue on GitHub.
+
 🙏 Acknowledgments
+
 This project builds upon several open-source frameworks:
 
 YOLOv8 for object detection
