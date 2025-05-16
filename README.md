@@ -3,11 +3,12 @@ Exam Answer Checker - Multi-Model Graph Analysis System
 ## 🎯 Overview
 A comprehensive system for analyzing hand-drawn graphs in exam answers using multiple computer vision models:
 
+- Document Layout: YOLOv9s-DocLayNet for paragraph detection
+- Exercise Number Classification
 - Graph Localization: YOLOv8 for detecting graph regions
 - Node Detection: YOLOv8s for identifying graph vertices
 - Edge Classification: ConvNeXt for classifying connections
 - Adjacency Matrix Prediction: Custom GraphCNN
-- Document Layout: YOLOv9s-DocLayNet for paragraph detection
 
 ## 🚀 Quick Start
 bash# Clone the repository
@@ -98,12 +99,13 @@ Custom CNN architecture that predicts adjacency matrices directly from graph ima
 
 ## 🔄 Workflow
 
-Document Analysis: Detect paragraphs and graph regions in the exam paper
-Node Detection: Identify graph vertices using YOLO object detection
-Corridor Extraction: Extract potential edge regions between detected nodes
-Edge Classification: Classify extracted corridors as edges or non-edges
-Graph Reconstruction: Build adjacency matrix from detected nodes and edges
-Output Generation: Export results in various formats (JSON, CSV, visualization)
+- Document Analysis: Detect paragraphs and graph regions in the exam paper
+- Exercise Number Classification: Classify exercise numbers using Google Gemini
+֊ Node Detection: Identify graph vertices using YOLO object detection
+֊ Corridor Extraction: Extract potential edge regions between detected nodes
+֊ Edge Classification: Classify extracted corridors as edges or non-edges
+֊ Graph Reconstruction: Build adjacency matrix from detected nodes and edges
+֊ Output Generation: Export results in various formats (JSON, CSV, visualization)
 
 ## 🚀 Usage Examples
 
@@ -145,9 +147,9 @@ bash python src/training/train_graph_cnn.py \
 
 The system uses YAML configuration files located in the configs/ directory. Key parameters include:
 
-Model Parameters: Learning rates, batch sizes, epochs
-Data Parameters: Image augmentation settings, dataset paths
-Inference Parameters: Confidence thresholds, NMS settings
+֊ Model Parameters: Learning rates, batch sizes, epochs
+֊ Data Parameters: Image augmentation settings, dataset paths
+֊ Inference Parameters: Confidence thresholds, NMS settings
 
 ## 🧪 Testing
 Run the test suite to verify installation:
