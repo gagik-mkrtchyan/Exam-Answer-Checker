@@ -17,6 +17,9 @@ cd exam-answer-checker
 # Install dependencies
 pip install -r requirements.txt
 
+# Set up Gemini API key
+export GEMINI_API_KEY="your_api_key_here"
+
 # Run inference on a sample image
 
 ![375](https://github.com/user-attachments/assets/3463ef42-e83c-46eb-9385-f726ddf77c82)
@@ -46,41 +49,52 @@ exam-answer-checker/
 
 ## 🔧 Installation
 Clone the repository:
-bashgit clone https://github.com/yourusername/exam-answer-checker.git
+bash git clone https://github.com/yourusername/exam-answer-checker.git
 cd exam-answer-checker
 
 Create a virtual environment:
-bashpython -m venv venv
+bash python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install dependencies:
-bashpip install -r requirements.txt
+bash pip install -r requirements.txt
+
+Add to your environment variables:
+echo "GEMINI_API_KEY=your_api_key_here" >> .env
 
 
 ## 📚 Models Overview
-1. Graph Localization (YOLOv8)
+1. Paragraph Detection (YOLOv9s-DocLayNet)
+Identifies text paragraphs and document layout elements to separate graph regions from textual content.
+
+![Screenshot from 2025-04-29 13-15-03](https://github.com/user-attachments/assets/805906a4-7af2-4dbb-af4d-8d02142b89de)
+
+2. Exercise Classification (Google Gemini)
+
+![Screenshot from 2025-05-05 21-54-19](https://github.com/user-attachments/assets/c236936e-b338-490f-af2b-7c9e0940a6d9)
+
+3. Graph Localization (YOLOv8)
 Detects and localizes graph regions in exam papers with high accuracy.
 
 ![Screenshot from 2025-05-07 22-25-04](https://github.com/user-attachments/assets/5521425c-0812-401d-adc3-6d177951864a)
 
-2. Node Detection (YOLOv8s)
+4. Node Detection (YOLOv8s)
 Identifies individual nodes/vertices in detected graphs, handling various drawing styles.
 
 ![Screenshot from 2025-05-07 22-31-49](https://github.com/user-attachments/assets/bbb8a736-126f-4311-8240-03644f21bd5f)
 
 
-3. Edge Classification (ConvNeXt)
+5. Edge Classification (ConvNeXt)
 Classifies whether connections exist between node pairs using state-of-the-art vision transformer architecture.
 
 ![452_corridor_2_4](https://github.com/user-attachments/assets/d0da526e-2ef6-4e8d-bf3c-2f1c4bdd1fc8)
 ![12_corridor_0_6](https://github.com/user-attachments/assets/636b0027-833f-4c80-8c82-5d579cbd788a)
 
-4. Graph CNN
+6. Graph CNN
 Custom CNN architecture that predicts adjacency matrices directly from graph images, eliminating the need for separate node and edge detection.
-5. Paragraph Detection (YOLOv9s-DocLayNet)
-Identifies text paragraphs and document layout elements to separate graph regions from textual content.
 
-![Screenshot from 2025-04-29 13-15-03](https://github.com/user-attachments/assets/805906a4-7af2-4dbb-af4d-8d02142b89de)
+
+
 
 ## 🔄 Workflow
 
