@@ -143,7 +143,6 @@ bashpython -m pytest tests/ -v
 
 Getting Started Guide
 Model Training Tutorial
-API Reference
 Troubleshooting
 
 🤝 Contributing
