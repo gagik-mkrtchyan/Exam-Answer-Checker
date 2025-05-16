@@ -137,7 +137,6 @@ Data Parameters: Image augmentation settings, dataset paths
 Inference Parameters: Confidence thresholds, NMS settings
 
 🧪 Testing
-
 Run the test suite to verify installation:
 bashpython -m pytest tests/ -v
 
