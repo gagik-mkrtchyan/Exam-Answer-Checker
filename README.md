@@ -155,34 +155,33 @@ Run the test suite to verify installation:
 bash python -m pytest tests/ -v
 
 ## 📖 Documentation
-Getting Started Guide
-Model Training Tutorial
-Troubleshooting
+- Getting Started Guide
+- Troubleshooting
 
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
 
-Fork the repository
-Create a feature branch (git checkout -b feature/amazing-feature)
-Commit your changes (git commit -m 'Add some amazing feature')
-Push to the branch (git push origin feature/amazing-feature)
-Open a Pull Request
+- Fork the repository
+- Create a feature branch (git checkout -b feature/amazing-feature)
+- Commit your changes (git commit -m 'Add some amazing feature')
+- Push to the branch (git push origin feature/amazing-feature)
+- Open a Pull Request
 
 Please ensure your code follows our coding standards and includes appropriate tests.
 
 ## 📝 Requirements
 
-Python 3.8 or higher
-PyTorch 1.7 or higher
-CUDA-compatible GPU (recommended for training)
-16GB+ for training, inference with CPU
+- Python 3.8 or higher
+- PyTorch 1.7 or higher
+- CUDA-compatible GPU (recommended for training)
+- 16GB+ for training, inference with CPU
 
 ## 🚨 Known Issues
 
-Large images (>4K resolution) may require additional preprocessing
-Some edge detection models may struggle with very faint or sketchy lines
-Processing time increases significantly with the number of nodes in complex graphs
+- Large images (>4K resolution) may require additional preprocessing
+- Some edge detection models may struggle with very faint or sketchy lines
+- Processing time increases significantly with the number of nodes in complex graphs
 
 ## 📞 Support
 
@@ -192,9 +191,9 @@ For questions, bug reports, or feature requests, please open an issue on GitHub.
 
 This project builds upon several open-source frameworks:
 
-YOLOv8 for object detection
-ConvNeXt for edge classification
-PyTorch for deep learning framework
+- YOLOv8 for object detection
+- ConvNeXt for edge classification
+- PyTorch for deep learning framework
 
 
 Note: This project is under active development. Features may change between versions.
