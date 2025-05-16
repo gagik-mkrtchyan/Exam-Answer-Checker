@@ -3,11 +3,11 @@ Exam Answer Checker - Multi-Model Graph Analysis System
 ## 🎯 Overview
 A comprehensive system for analyzing hand-drawn graphs in exam answers using multiple computer vision models:
 
-Graph Localization: YOLOv8 for detecting graph regions
-Node Detection: YOLOv8s for identifying graph vertices
-Edge Classification: ConvNeXt for classifying connections
-Adjacency Matrix Prediction: Custom GraphCNN
-Document Layout: YOLOv9s-DocLayNet for paragraph detection
+- Graph Localization: YOLOv8 for detecting graph regions
+- Node Detection: YOLOv8s for identifying graph vertices
+- Edge Classification: ConvNeXt for classifying connections
+- Adjacency Matrix Prediction: Custom GraphCNN
+- Document Layout: YOLOv9s-DocLayNet for paragraph detection
 
 ## 🚀 Quick Start
 bash# Clone the repository
