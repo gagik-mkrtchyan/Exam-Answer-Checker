@@ -1,6 +1,6 @@
 Exam Answer Checker - Multi-Model Graph Analysis System
 
-🎯 Overview
+## 🎯 Overview
 A comprehensive system for analyzing hand-drawn graphs in exam answers using multiple computer vision models:
 
 Graph Localization: YOLOv8 for detecting graph regions
@@ -9,7 +9,7 @@ Edge Classification: ConvNeXt for classifying connections
 Adjacency Matrix Prediction: Custom GraphCNN
 Document Layout: YOLOv9s-DocLayNet for paragraph detection
 
-🚀 Quick Start
+## 🚀 Quick Start
 bash# Clone the repository
 git clone https://github.com/yourusername/exam-answer-checker.git
 cd exam-answer-checker
@@ -44,8 +44,7 @@ exam-answer-checker/
 └── requirements.txt       # Python dependencies
 </pre>
 
-🔧 Installation
-
+##🔧 Installation
 Clone the repository:
 bashgit clone https://github.com/yourusername/exam-answer-checker.git
 cd exam-answer-checker
@@ -58,7 +57,7 @@ Install dependencies:
 bashpip install -r requirements.txt
 
 
-📚 Models Overview
+##📚 Models Overview
 1. Graph Localization (YOLOv8)
 Detects and localizes graph regions in exam papers with high accuracy.
 
@@ -83,7 +82,7 @@ Identifies text paragraphs and document layout elements to separate graph region
 
 ![Screenshot from 2025-04-29 13-15-03](https://github.com/user-attachments/assets/805906a4-7af2-4dbb-af4d-8d02142b89de)
 
-🔄 Workflow
+##🔄 Workflow
 
 Document Analysis: Detect paragraphs and graph regions in the exam paper
 Node Detection: Identify graph vertices using YOLO object detection
@@ -92,7 +91,7 @@ Edge Classification: Classify extracted corridors as edges or non-edges
 Graph Reconstruction: Build adjacency matrix from detected nodes and edges
 Output Generation: Export results in various formats (JSON, CSV, visualization)
 
-🚀 Usage Examples
+##🚀 Usage Examples
 
 Single Image Inference
 
@@ -116,7 +115,7 @@ bash python src/training/train_graph_cnn.py \
     --data_dir data/training_set/ \
     --output_dir models/custom/
     
-📊 Performance Metrics
+##📊 Performance Metrics
 
 | Approach         | Model           | Accuracy | Precision | Recall | F1 Score |
 |------------------|------------------|----------|-----------|--------|----------|
@@ -128,7 +127,7 @@ bash python src/training/train_graph_cnn.py \
 - **Graph Reconstruction F1-Score**: 89.5%
 - **Processing Time**: ~2.3 seconds per exam page
 
-🔧 Configuration
+##🔧 Configuration
 
 The system uses YAML configuration files located in the configs/ directory. Key parameters include:
 
@@ -140,13 +139,12 @@ Inference Parameters: Confidence thresholds, NMS settings
 Run the test suite to verify installation:
 bash python -m pytest tests/ -v
 
-📖 Documentation
-
+##📖 Documentation
 Getting Started Guide
 Model Training Tutorial
 Troubleshooting
 
-🤝 Contributing
+##🤝 Contributing
 
 We welcome contributions! Please follow these steps:
 
@@ -158,24 +156,24 @@ Open a Pull Request
 
 Please ensure your code follows our coding standards and includes appropriate tests.
 
-📝 Requirements
+##📝 Requirements
 
 Python 3.8 or higher
 PyTorch 1.7 or higher
 CUDA-compatible GPU (recommended for training)
 8GB+ RAM for inference, 16GB+ for training
 
-🚨 Known Issues
+##🚨 Known Issues
 
 Large images (>4K resolution) may require additional preprocessing
 Some edge detection models may struggle with very faint or sketchy lines
 Processing time increases significantly with the number of nodes in complex graphs
 
-📞 Support
+##📞 Support
 
 For questions, bug reports, or feature requests, please open an issue on GitHub.
 
-🙏 Acknowledgments
+##🙏 Acknowledgments
 
 This project builds upon several open-source frameworks:
 
