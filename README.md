@@ -105,7 +105,6 @@ Custom CNN architecture that predicts adjacency matrices directly from graph ima
 - Corridor Extraction: Extract potential edge regions between detected nodes
 - Edge Classification: Classify extracted corridors as edges or non-edges
 - Graph Reconstruction: Build adjacency matrix from detected nodes and edges
-- Output Generation: Export results in various formats (JSON, CSV, visualization)
 
 ## 🚀 Usage Examples
 
