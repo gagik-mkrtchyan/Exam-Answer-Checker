@@ -95,18 +95,23 @@ Output Generation: Export results in various formats (JSON, CSV, visualization)
 🚀 Usage Examples
 
 Single Image Inference
-bashpython src/inference/graph_inference.py \
+
+bash python src/inference/graph_inference.py \
     --image_path path/to/exam/image.jpg \
     --node_model models/pretrained/node_detection.pt \
     --edge_model models/pretrained/edge_classifier.pt \
     --output_dir results/
+    
 Batch Processing
-bashpython src/inference/batch_inference.py \
+
+bash python src/inference/batch_inference.py \
     --model_path models/pretrained/graph_cnn.pt \
     --image_dir path/to/images/ \
     --output_json results/adjacency_matrices.json
+    
 Training a New Model
-bashpython src/training/train_graph_cnn.py \
+
+bash python src/training/train_graph_cnn.py \
     --config configs/graph_cnn_config.yaml \
     --data_dir data/training_set/ \
     --output_dir models/custom/
