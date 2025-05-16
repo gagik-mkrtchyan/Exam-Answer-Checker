@@ -63,21 +63,21 @@ Detects and localizes graph regions in exam papers with high accuracy.
 
 ![Screenshot from 2025-05-07 22-25-04](https://github.com/user-attachments/assets/5521425c-0812-401d-adc3-6d177951864a)
 
-3. Node Detection (YOLOv8s)
+2. Node Detection (YOLOv8s)
 Identifies individual nodes/vertices in detected graphs, handling various drawing styles.
 
 ![Screenshot from 2025-05-07 22-31-49](https://github.com/user-attachments/assets/bbb8a736-126f-4311-8240-03644f21bd5f)
 
 
-5. Edge Classification (ConvNeXt)
+3. Edge Classification (ConvNeXt)
 Classifies whether connections exist between node pairs using state-of-the-art vision transformer architecture.
 
 ![452_corridor_2_4](https://github.com/user-attachments/assets/d0da526e-2ef6-4e8d-bf3c-2f1c4bdd1fc8)
 ![12_corridor_0_6](https://github.com/user-attachments/assets/636b0027-833f-4c80-8c82-5d579cbd788a)
 
-7. Graph CNN
+4. Graph CNN
 Custom CNN architecture that predicts adjacency matrices directly from graph images, eliminating the need for separate node and edge detection.
-8. Paragraph Detection (YOLOv9s-DocLayNet)
+5. Paragraph Detection (YOLOv9s-DocLayNet)
 Identifies text paragraphs and document layout elements to separate graph regions from textual content.
 
 ![Screenshot from 2025-04-29 13-15-03](https://github.com/user-attachments/assets/805906a4-7af2-4dbb-af4d-8d02142b89de)
