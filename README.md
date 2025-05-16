@@ -101,11 +101,11 @@ Custom CNN architecture that predicts adjacency matrices directly from graph ima
 
 - Document Analysis: Detect paragraphs and graph regions in the exam paper
 - Exercise Number Classification: Classify exercise numbers using Google Gemini
-֊ Node Detection: Identify graph vertices using YOLO object detection
-֊ Corridor Extraction: Extract potential edge regions between detected nodes
-֊ Edge Classification: Classify extracted corridors as edges or non-edges
-֊ Graph Reconstruction: Build adjacency matrix from detected nodes and edges
-֊ Output Generation: Export results in various formats (JSON, CSV, visualization)
+- Node Detection: Identify graph vertices using YOLO object detection
+- Corridor Extraction: Extract potential edge regions between detected nodes
+- Edge Classification: Classify extracted corridors as edges or non-edges
+- Graph Reconstruction: Build adjacency matrix from detected nodes and edges
+- Output Generation: Export results in various formats (JSON, CSV, visualization)
 
 ## 🚀 Usage Examples
 
