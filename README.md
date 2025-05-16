@@ -146,9 +146,9 @@ bash python src/training/train_graph_cnn.py \
 
 The system uses YAML configuration files located in the configs/ directory. Key parameters include:
 
-֊ Model Parameters: Learning rates, batch sizes, epochs
-֊ Data Parameters: Image augmentation settings, dataset paths
-֊ Inference Parameters: Confidence thresholds, NMS settings
+- Model Parameters: Learning rates, batch sizes, epochs
+- Data Parameters: Image augmentation settings, dataset paths
+- Inference Parameters: Confidence thresholds, NMS settings
 
 ## 🧪 Testing
 Run the test suite to verify installation:
